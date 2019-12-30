@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { StyledHeroImage } from '../styles/StyledHeroImage';
-import Spinner from './Spinner';
 
 const HeroImage = ({ image, title, text }) => {
   return (
