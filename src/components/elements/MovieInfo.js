@@ -5,7 +5,6 @@ import { IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
 import MovieThumb from './MovieThumb';
 
 import { StyledMovieInfo } from '../styles/StyledMovieInfo';
-import { element } from 'prop-types';
 
 const MovieInfo = ({ movie }) => {
   return (
