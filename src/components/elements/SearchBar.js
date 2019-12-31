@@ -41,6 +41,8 @@ const SearchBar = ({ callback }) => {
   );
 };
 
-SearchBar.propTypes = {};
+SearchBar.propTypes = {
+  callback: PropTypes.func
+};
 
 export default SearchBar;

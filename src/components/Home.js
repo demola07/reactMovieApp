@@ -4,10 +4,8 @@ import {
   SEARCH_BASE_URL,
   POSTER_SIZE,
   BACKDROP_SIZE,
-  IMAGE_BASE_URL,
-  API_KEY
+  IMAGE_BASE_URL
 } from '../config';
-import PropTypes from 'prop-types';
 
 import { useHomeFetch } from './hooks/useHomeFetch';
 
@@ -91,7 +89,5 @@ const Home = () => {
     </>
   );
 };
-
-Home.propTypes = {};
 
 export default Home;

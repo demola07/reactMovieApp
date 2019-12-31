@@ -11,7 +11,6 @@ export const useHomeFetch = () => {
     setLoading(true);
 
     const isLoadMore = endpoint.search('page');
-    console.log(isLoadMore);
 
     try {
       const result = await (await fetch(endpoint)).json();

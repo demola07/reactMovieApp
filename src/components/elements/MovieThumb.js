@@ -17,6 +17,10 @@ const MovieThumb = ({ image, movieId, clickable }) => {
   );
 };
 
-MovieThumb.propTypes = {};
+MovieThumb.propTypes = {
+  image: PropTypes.string,
+  movieId: PropTypes.number,
+  clickable: PropTypes.bool
+};
 
 export default MovieThumb;

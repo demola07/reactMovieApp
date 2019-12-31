@@ -11,6 +11,9 @@ const LoadMoreButton = ({ text, callback }) => {
   );
 };
 
-LoadMoreButton.propTypes = {};
+LoadMoreButton.propTypes = {
+  text: PropTypes.string,
+  callback: PropTypes.func
+};
 
 export default LoadMoreButton;

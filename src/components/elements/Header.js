@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from '@reach/router';
 
 import {
@@ -23,7 +22,5 @@ const Header = props => {
     </StyledHeader>
   );
 };
-
-Header.propTypes = {};
 
 export default Header;

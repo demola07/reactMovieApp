@@ -12,6 +12,8 @@ const Grid = ({ header, children }) => {
   );
 };
 
-Grid.propTypes = {};
+Grid.propTypes = {
+  header: PropTypes.string
+};
 
 export default Grid;
